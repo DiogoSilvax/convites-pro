@@ -236,21 +236,51 @@ body {
 /* BENEFITS */
 .benefits {
     padding: 5rem 1rem;
-}
-
-.benefit-list {
-    list-style: none;
-    max-width: 600px;
-    margin: 2rem auto 0;
-}
-
-.benefit-list li {
-    font-size: 1.3rem;
-    margin-bottom: 1.5rem;
-    padding: 1rem;
     background: #fff;
-    border-radius: 10px;
-    box-shadow: var(--shadow);
+}
+
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+.check-list {
+    list-style: none;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.check-list li {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    line-height: 1.4;
+}
+
+.check-list li::before {
+    content: "✔";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+    height: 30px;
+    background: #c5a059;
+    /* Gold/Bronze color like the image */
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.icon {
+    font-size: 1.4rem;
+}
+
+.mt-4 {
+    margin-top: 2rem;
 }
 
 /* IMAGINATION */
